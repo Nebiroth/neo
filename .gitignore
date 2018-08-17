@@ -1,2 +1,25 @@
+Assets/.~lock.Prefabs1.0.odg#
+Assets/.~lock.Prefabs1.1.odg#
+Assets/*.jpg
+Assets/*.meta
+Assets/*.png
+Assets/SampleScenes
+Assets/Standard Assets
+Library/*.asset
+Library/*.dwlt
+Library/*.txt
+Library/AnnotationManager
+Library/assetDatabase3
+Library/EditorInstance.json
+Library/expandedItems
+Library/GridBrush
 Library/metadata/*
+Library/ScriptManager
 Library/ShaderCache/*
+Library/ShaderCache.db
+Library/ScriptAssemblies/*.dll
+Library/ScriptAssemblies/*.mdb
+Temp/
+.vs/
+*.csproj
+

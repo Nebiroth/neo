@@ -24,7 +24,6 @@ public class HeroSelect : MonoBehaviour {
 			// if object that has this script attached is not current selection,
 			// destroy attached controls script
 			if (gameObject != hits[0].collider.gameObject) {
-				Debug.Log("removing selection on " + gameObject);
 				Destroy(gameObject.GetComponent<HeroControls>());
 			}
 

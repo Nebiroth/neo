@@ -5,6 +5,10 @@ using UnityEngine;
 public class HeroObject : SelectableObject {
 
 	public void createHero(float xPos, float yPos, string className, string heroName, uint level, uint currentXP, string PortraitPath) {
+		Debug.Log(PortraitPath);
+		Sprite currentSprite = Resources.Load<Sprite>(PortraitPath);
+		SpriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+		SpriteRenderer.sprite = currentSprite;
 		Vector3 PosVector = new Vector3(xPos, yPos, 0.0f);
 		transform.position += PosVector;
 		HeroClass = className;
@@ -39,7 +43,7 @@ public class HeroObject : SelectableObject {
 	public uint CurrentExperience;
 	public uint NextLevelExperience;
 
-	// class, name, portrait
+	// class, name
 	public string HeroClass;
 	public string HeroName;
 

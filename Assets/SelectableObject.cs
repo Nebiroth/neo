@@ -6,4 +6,5 @@ using UnityEngine;
 public abstract class SelectableObject : MonoBehaviour{
 	public bool RightClickEnabled;
 	public bool LeftClickEnabled;
+	public SpriteRenderer SpriteRenderer;
 }
